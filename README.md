@@ -1,8 +1,8 @@
-AI Engineering Portfolio
+# AI Engineering Portfolio
 
 Tento repozitář obsahuje ucelenou sadu projektů, které demonstrují praktické dovednosti v oblasti vývoje systémů založených na velkých jazykových modelech. Projekty pokrývají klíčové oblasti moderního AI engineeringu: lokální inference, vektorové databáze, RAG, agenti, orchestrátory, fine‑tuning a produkční deployment. Vše je postavené na technologiích, které se běžně používají v praxi: .NET, Ollama, Qdrant, MLflow, Docker a moderní open‑source modely.
 
-Projekty
+## Projekty
 
 Každý projekt je samostatný, má vlastní dokumentaci a lze jej spustit nezávisle. Projekty jsou řazeny tak, aby odrážely postupný růst dovedností.
 
@@ -21,7 +21,7 @@ Ukázka fine‑tuning pipeline pomocí LoRA. Obsahuje přípravu datasetu, trén
 7. Production‑ready AI Stack
 Kompletní produkční stack v Dockeru: Ollama, Qdrant a .NET API. Obsahuje observabilitu, health‑checky a základní monitoring.
 
-Použité technologie
+## Použité technologie
 
 - .NET 8 – backend, orchestrace, API
 - Ollama – lokální inference LLM
@@ -31,22 +31,22 @@ Použité technologie
 - Hugging Face – modely, embeddingy, LoRA
 - LangChain / LangGraph – agenti a workflow (tam, kde je to vhodné)
 
-Architektura celého stacku
+## Architektura celého stacku
 
-Lokální vývoj
+### Lokální vývoj
 
 - Ollama běží jako inference engine
 - Qdrant poskytuje vektorové vyhledávání
 - .NET API orchestruje dotazy, retrieval a generování odpovědí
   
-Produkční stack
+### Produkční stack
 
 - Docker Compose řídí všechny služby
 - API poskytuje jednotný vstupní bod
 - Observabilita sleduje latenci, tokeny a využití modelů
 - MLflow spravuje verze modelů a experimenty
 
-Cíle portfolia
+## Cíle portfolia
 
 - ukázat schopnost stavět kompletní AI systémy od nuly
 - demonstrovat práci s moderními LLM technologiemi
@@ -54,7 +54,7 @@ Cíle portfolia
 - pokrýt všechny oblasti, které firmy očekávají od AI vývojáře
 - poskytnout reálné, spustitelné projekty, ne jen teoretické ukázky
 
-Jak projekty spustit
+## Jak projekty spustit
 
 Každý projekt obsahuje vlastní README s instrukcemi.
 Většina projektů vyžaduje:
@@ -62,7 +62,7 @@ Většina projektů vyžaduje:
 - Docker (pro Qdrant a produkční stack)
 - .NET 8 SDK
 
-Kontakt
+## Kontakt
 
 Pokud vás zajímá architektura, implementace nebo spolupráce na AI projektech, rád poskytnu více informací.
 
