@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/01-local-llm-inference/LocalLLM.Api/.vs
+/01-local-llm-inference/LocalLLM.Api/bin/Debug/net10.0
+/01-local-llm-inference/LocalLLM.Api/obj
+/01-local-llm-inference/LocalLLM.Api/Properties
