@@ -1,4 +1,4 @@
-using LocalLLM.Api;
+using LocalLLM.Api.src;
 using System.Diagnostics;
 
 var builder = WebApplication.CreateBuilder(args);

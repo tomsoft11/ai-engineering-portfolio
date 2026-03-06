@@ -1,4 +1,4 @@
-﻿namespace LocalLLM.Api
+﻿namespace LocalLLM.Api.src
 {
     public class GenerateRequest
     {
