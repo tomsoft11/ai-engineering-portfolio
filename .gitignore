@@ -7,3 +7,6 @@
 /01-local-llm-inference/LocalLLM.Api/bin/Debug/net10.0
 /01-local-llm-inference/LocalLLM.Api/obj
 /01-local-llm-inference/LocalLLM.Api/Properties
+/02-embeddings/Embeddings.Api/obj
+/02-embeddings/Embeddings.Api/Properties
+/02-embeddings/Embeddings.Api/bin/Debug/net10.0
