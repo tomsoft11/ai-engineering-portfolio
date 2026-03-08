@@ -1,4 +1,4 @@
-# Lab #4 – Vector Search (Qdrant)
+# Vector Search (Qdrant)
 ## Lokální vektorové vyhledávání pomocí Qdrantu a gRPC klienta
 
 Tento lab navazuje na Lab #3 (Embeddingy) a přidává schopnost ukládat embeddingy do vektorové databáze Qdrant a provádět nad nimi vektorové vyhledávání.  
