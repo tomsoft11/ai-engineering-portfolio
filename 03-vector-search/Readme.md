@@ -40,7 +40,7 @@ Qdrant poběží na:
 Kolekce musí být vytvořena před prvním upsertem.
 Příklad pro vektory o velikosti 768:
 ```bash
-curl -X PUT "http://localhost:6333/collections/embeddings" \
+curl -X PUT "http://localhost:6334/collections/embeddings" \
   -H "Content-Type: application/json" \
   -d '{
         "vectors": {
