@@ -54,20 +54,24 @@ http://localhost:5004
 
 ## Použití
 Endpoint: /generate
-POST
-http://localhost:5004/generate
+
+POST http://localhost:5004/generate
+
 Body:
+```bash
 {
   "prompt": "Explain how transformers work."
 }
-
+```
 
 Ukázková odpověď:
+```bash
 {
   "response": "...",
   "tokensPerSecond": 42.1,
   "latencyMs": 812
 }
+```
 
 ## Benchmarky
 V adresáři benchmarks/ najdeš:
@@ -75,9 +79,4 @@ V adresáři benchmarks/ najdeš:
 - měření tokenů/s na CPU i GPU
 - vliv kvantizace na rychlost
 
-## Co tento projekt ukazuje
-- schopnost integrovat LLM do backendu
-- práci s lokální inference bez cloudu
-- měření výkonu a optimalizaci
-- čistou architekturu vhodnou pro rozšíření
 Tento projekt je základním stavebním kamenem pro RAG backend, agenty a orchestrátor, které následují v dalších částech portfolia.

@@ -11,6 +11,6 @@ POST http://localhost:5004/similarity
 Content-Type: application/json
 
 {
-  "a": [...],
-  "b": [...]
+  "TextA": "Artificial intelligence is transforming the world.",
+  "TextB": "Artificial intelligence is transforming the world!"
 }

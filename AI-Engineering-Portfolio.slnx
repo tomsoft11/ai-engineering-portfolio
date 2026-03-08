@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="01-local-llm-inference/LocalLLM.Api/LocalLLM.Api.csproj" />
   <Project Path="02-embeddings/Embeddings.Api/Embeddings.Api.csproj" />
+  <Project Path="03-vector-search/VectorSearch.Api/VectorSearch.Api.csproj" />
 </Solution>
